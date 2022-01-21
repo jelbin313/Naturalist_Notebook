@@ -1,0 +1,217 @@
+* {
+	background-color: transparent;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	color: #492B10;
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: 700;
+}
+
+body {
+	background-image: url("PaperTexture.jpg");
+}
+
+h1 {
+	color:#62BB1C;
+	font-size: 48px;
+}
+
+h2 {
+	color:#62BB1C;
+	font-size: 36px;
+}
+
+h3 {
+	color:#62BB1C;
+	font-size: 24px;
+}
+
+
+hr {
+	border: 1px solid;
+}
+
+button, input[type=submit] {
+	border: none;
+	padding: 15px 30px;
+	font-size: 20px;
+}
+
+button:hover, input[type=submit]:hover {
+	background-color: #62BB1C;
+  	color: white;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#heading {
+	height: 175px;
+}
+
+#login_corner {
+	float: right;
+	height: 105px;
+	margin-top: 37.5px;
+}
+
+#logout_corner {
+	float: right;
+	height: 150px;
+	margin-top: 20px;
+}
+
+#title {
+	margin: 55px 75px;
+}
+
+.navbar {
+	margin: 0px 15px;
+}
+
+#signup {
+	height: 400px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#add_user {
+	height: 400px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#login {
+	height: 300px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+td {
+	text-align: center;
+}
+
+#description {
+	height: 500px;
+	background-image: url("Flowers.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid transparent;
+}
+
+#description_paragraph {
+	height: 200px;
+	width: 1000px;
+	margin-top: 150px;
+}
+
+p {
+	font-size: 20px;
+}
+
+#signup_anchor {
+	display: block;
+	width: 130.5px;
+}
+
+#users_table {
+	width: 800px;
+}
+
+.heading {
+	text-align: center;
+	margin: 50px;
+}
+
+input[type=file] {
+	display: none;
+}
+
+.upload_image {
+	border: none;
+	padding: 15px 30px;
+}
+
+.upload_image:hover {
+	background-color: #62BB1C;
+  	color: white;
+}
+
+#add_observation {
+	height: 500px;
+	width: 500px;
+}
+
+.information {
+	width: 1200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.notebooks_grid {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.notebooks_table {
+	width: 300px;
+	height: 340px;
+	margin-top:auto;
+	margin-bottom: auto;
+}
+
+.observations_grid {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr;
+}
+
+.observations_table {
+	width: 1200px;
+	height: 200px;
+}
+
+.observation_image {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.observation_notes {
+	padding: 15px;
+}
+
+#notes {
+	height: 175px;
+}
+
+.text_center {
+	text-align: center;
+}
+
+/** {
+	border: 1px solid black;
+}*/
